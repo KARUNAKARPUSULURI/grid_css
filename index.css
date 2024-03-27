@@ -1,0 +1,28 @@
+*{
+    margin: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+figure{
+    flex: 0.5;
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+}
+li{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: -20px;
+}
+li:hover{
+    color: rgb(96, 96, 255);
+    cursor: pointer;
+}
